@@ -8,6 +8,11 @@ const nextConfig = {
   experimental: {
     instrumentationHook: true,
   },
+    env: {
+    GOOGLE_CLIENT_ID: '758394206603-4gqllatk9qndjb804to5seotpu3v89ua.apps.googleusercontent.com',
+    GOOGLE_CLIENT_SECRET: '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',
+    NEXT_PUBLIC_GOOGLE_CALLBACK_URL: 'https://cal-production-8042.up.railway.app/api/auth/callback/google',
+  },
   transpilePackages: [
     "@calcom/app-store",
     "@calcom/dayjs",
